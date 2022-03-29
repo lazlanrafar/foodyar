@@ -42,6 +42,16 @@
 .btn-yellow {
   background-color: var(--yellow-color) !important;
   padding: 7px 30px;
+  font-weight: 600;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+button:focus {
+  outline: none;
+  box-shadow: none !important;
 }
 
 .card-food {
@@ -75,14 +85,15 @@
   color: var(--muted-color);
   font-size: 16px;
 }
-.card-food .star {
-  color: var(--yellow-color);
-}
 .card-food:hover .img img {
   filter: brightness(0.8);
 }
 .card-food:hover .img .hover {
   opacity: 1;
+}
+
+.star {
+  color: var(--yellow-color);
 }
 
 section {
@@ -95,7 +106,6 @@ section {
   color: var(--black-color);
 }
 #navbar .nav-item .nav-link {
-  font-size: 18px !important;
   color: var(--muted-color);
 }
 #navbar .nav-item .active {

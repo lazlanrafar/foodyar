@@ -1,0 +1,48 @@
+#detail-page section {
+  margin: 3rem !important;
+}
+#detail-page h5 {
+  font-weight: 600;
+}
+#detail-page #gallery .img {
+  border-radius: 10px !important;
+  height: 100px;
+}
+#detail-page #join-course .price {
+  font-size: 26px;
+  font-weight: 700;
+}
+#detail-page #ingredients .img {
+  width: 70px;
+  height: 70px;
+  background-size: cover !important;
+  background-position: center !important;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+#detail-page #ingredients .text {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black-color);
+}
+#detail-page #ingredients .value {
+  font-size: 14px;
+  color: var(--muted-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  #detail-page section {
+    margin: 2rem !important;
+  }
+  #detail-page #gallery .img {
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #detail-page section {
+    margin: 1rem !important;
+  }
+  #detail-page #gallery .img {
+    height: 50px;
+  }
+}/*# sourceMappingURL=detail.css.map */

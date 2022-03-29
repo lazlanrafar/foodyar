@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/detail.css" />
+
+    <title>Foodyar | Course Masak</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light py-4" id="navbar">
+      <div class="container" id="section-quote">
+        <h1 class="mb-0">
+          <a class="navbar-brand fw-bold" href="/">Foodyar</a>
+        </h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Beverages</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Chef</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Ingredient</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Stories</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-custom btn-gray ms-4">My Kitchen</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container" id="detail-page">
+      <section class="text-center">
+        <h3 class="h3">Online Course: Salad Kiwi Sugga</h3>
+        <p style="color: var(--muted-color)">By Azlan Rafar</p>
+        <div class="d-flex justify-content-center">
+          <div class="star mx-2">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="mx-2 fw-bold" style="color: var(--black-color)">
+            12,409 Student
+          </p>
+        </div>
+        <div class="row justify-content-center mt-3 mt-md-5">
+          <div class="col-12 col-md-10 col-lg-8">
+            <img src="./img/banner-home.png" width="100%" alt="" />
+          </div>
+        </div>
+      </section>
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-7">
+          <section id="about-course">
+            <h5 class="mb-3">About Course</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+              exercitationem. Neque quisquam blanditiis cum. Blanditiis amet
+              omnis illum quam velit? Ipsum iste at illum similique laborum vero
+              voluptatem voluptates numquam? Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Sit, exercitationem. Neque quisquam
+              blanditiis cum. Blanditiis amet omnis illum quam velit? Ipsum iste
+              at illum similique laborum vero voluptatem voluptates numquam?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+              exercitationem. Neque quisquam blanditiis cum. Blanditiis amet
+              omnis illum quam velit? Ipsum iste at illum similique laborum vero
+              voluptatem voluptates numquam?
+            </p>
+          </section>
+          <section id="gallery">
+            <h5 class="mb-3">Gallery</h5>
+            <div class="row">
+              <div class="col-3">
+                <img
+                  src="./img/gallery/img1.jpg"
+                  alt=""
+                  class="img rounded"
+                  width="100%"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="./img/gallery/img2.jpg"
+                  alt=""
+                  class="img rounded"
+                  width="100%"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="./img/gallery/img3.jpg"
+                  alt=""
+                  class="img rounded"
+                  width="100%"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="./img/gallery/img4.jpg"
+                  alt=""
+                  class="img rounded"
+                  width="100%"
+                />
+              </div>
+            </div>
+          </section>
+          <section id="syllabus">
+            <h5 class="mb-3">Syllabus</h5>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-5">
+          <section id="join-course">
+            <h5 class="mb-3">Join Course</h5>
+            <p class="price mb-0">Rp. 300.000</p>
+            <p style="color: var(--muted-color)">Pay Once, Lifetime Access</p>
+            <a href="#" class="btn btn-custom btn-yellow">Join Course</a>
+          </section>
+          <section id="ingredients">
+            <h5 class="mb-3">Ingredients</h5>
+            <div>
+              <div class="d-flex align-items-center mb-3">
+                <div
+                  class="img"
+                  style="background: url(./img/ingredients/bawang.jpg)"
+                ></div>
+                <div>
+                  <p class="text mb-0">Bawang Putih</p>
+                  <p class="value mb-0">12 Kg</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <div
+                  class="img"
+                  style="background: url(./img/ingredients/pewarna.jpg)"
+                ></div>
+                <div>
+                  <p class="text mb-0">Pewarna</p>
+                  <p class="value mb-0">1 liter</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <div
+                  class="img"
+                  style="background: url(./img/ingredients/santan.jpg)"
+                ></div>
+                <div>
+                  <p class="text mb-0">Santan Kit</p>
+                  <p class="value mb-0">1 pack</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <div
+                  class="img"
+                  style="background: url(./img/ingredients/lemon.jpg)"
+                ></div>
+                <div>
+                  <p class="text mb-0">Lemon</p>
+                  <p class="value mb-0">2 ons</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="border-top py-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0 align-self-center"
+            >
+              <h1 class="fw-bold h4">Foodyar</h1>
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0">
+              <h4 class="h5 mb-3 fw-bold">Special Course</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Wedding Foods</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Healthy and Muscle</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Office Food Daily</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Happy Kids</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0">
+              <h4 class="h5 mb-3 fw-bold">Company</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >APIs Developer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Career</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Terms & Conditions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0">
+              <h4 class="h5 mb-3 fw-bold">Be Our Friend</h4>
+              <p style="color: var(--muted-color)" class="lh-lg">
+                3, Season Park, Jakarta <br />
+                support@foodyar.co,id <br />
+                021 - 1111 - 2222
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top py-3">
+        <p class="text-center mb-0" style="color: var(--muted-color)">
+          All Rights Reserved &copy; Foodyar 2020
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/14988144a7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

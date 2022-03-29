@@ -47,8 +47,18 @@
 .btn-yellow {
   background-color: var(--yellow-color) !important;
   padding: 7px 30px;
+  font-weight: 600;
 }
 
+button {
+  border: none;
+  outline: none;
+
+  &:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+}
 // Card
 
 .card-food {
@@ -83,9 +93,6 @@
     color: var(--muted-color);
     font-size: 16px;
   }
-  .star {
-    color: var(--yellow-color);
-  }
 
   &:hover {
     .img {
@@ -97,6 +104,10 @@
       }
     }
   }
+}
+
+.star {
+  color: var(--yellow-color);
 }
 
 section {
@@ -111,7 +122,6 @@ section {
   }
   .nav-item {
     .nav-link {
-      font-size: 18px !important;
       color: var(--muted-color);
     }
     .active {
