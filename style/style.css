@@ -45,11 +45,13 @@
   font-weight: 600;
 }
 
-button {
+button,
+input {
   border: none;
   outline: none;
 }
-button:focus {
+button:focus,
+input:focus {
   outline: none;
   box-shadow: none !important;
 }
