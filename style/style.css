@@ -89,6 +89,20 @@ section {
   margin: 5rem 0 !important;
 }
 
+#navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--black-color);
+}
+#navbar .nav-item .nav-link {
+  font-size: 18px !important;
+  color: var(--muted-color);
+}
+#navbar .nav-item .active {
+  color: var(--black-color) !important;
+  font-weight: bold;
+}
+
 #section-testimony .testimony {
   font-size: 26px;
   color: var(--black-color);
@@ -117,4 +131,47 @@ section {
 #section-about .text {
   color: var(--muted-color);
   font-size: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .h2 {
+    font-size: 30px !important;
+  }
+
+  .text-muted {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .h2 {
+    font-size: 30px !important;
+  }
+
+  .text-muted {
+    font-size: 16px !important;
+  }
+
+  section {
+    margin: 3rem 0 !important;
+  }
+
+  #section-testimony .testimony {
+    font-size: 20px !important;
+  }
+  #section-testimony img {
+    width: 70px !important;
+  }
+  #section-testimony .username {
+    font-size: 16px !important;
+  }
+
+  #section-about .item {
+    padding: 16px !important;
+  }
+  #section-about .value {
+    font-size: 20px !important;
+  }
+  #section-about .text {
+    font-size: 12px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

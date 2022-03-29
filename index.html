@@ -20,9 +20,11 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light py-4">
+    <nav class="navbar navbar-expand-lg navbar-light py-4" id="navbar">
       <div class="container" id="section-quote">
-        <a class="navbar-brand fw-bold" href="#">Foodyar</a>
+        <h1 class="mb-0">
+          <a class="navbar-brand fw-bold" href="#">Foodyar</a>
+        </h1>
         <button
           class="navbar-toggler"
           type="button"
@@ -61,7 +63,9 @@
     <main class="container">
       <!-- Banner Home -->
       <section class="row align-items-center">
-        <div class="col-6">
+        <div
+          class="col-12 col-md-6 order-last order-md-first text-center text-md-start"
+        >
           <h2 class="fw-bold h2">
             Eat What You Cook <br />
             With Us, Together!
@@ -72,7 +76,7 @@
           </p>
           <a href="#" class="btn btn-custom btn-yellow">Decide a Menu</a>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6 order-first order-md-last mb-4 mb-md-0">
           <a href="#">
             <img
               src="./img/banner-home.png"
@@ -89,23 +93,46 @@
         <p class="text-muted mb-0">Watch Now</p>
         <h3 class="h3">Special to Try</h3>
         <ul class="list-unstyled d-flex justify-content-center">
-          <li
-            class="m-2 p-2"
-            style="
-              color: var(--yellow-color);
-              font-weight: 500;
-              border-bottom: 2px solid var(--yellow-color);
-            "
-          >
-            Healthy Food
+          <li class="m-2 p-2">
+            <a
+              href="#"
+              style="
+                color: var(--yellow-color);
+                font-weight: 500;
+                border-bottom: 2px solid var(--yellow-color);
+              "
+              class="text-decoration-none"
+              >Healthy Food</a
+            >
           </li>
-          <li class="m-2 p-2">Lunch</li>
-          <li class="m-2 p-2">Vege Desert</li>
-          <li class="m-2 p-2">Shake</li>
+          <li class="m-2 p-2">
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="color: var(--black-color)"
+              >Lunch</a
+            >
+          </li>
+          <li class="m-2 p-2">
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="color: var(--black-color)"
+              >Vege Desert</a
+            >
+          </li>
+          <li class="m-2 p-2">
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="color: var(--black-color)"
+              >Shake</a
+            >
+          </li>
         </ul>
 
         <div class="row my-5">
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-5">
             <a href="#" class="card-food">
               <div class="img">
                 <img src="./img/foods/food1.png" alt="" width="90%" />
@@ -124,7 +151,7 @@
               </div>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-5">
             <a href="#" class="card-food">
               <div class="img">
                 <img src="./img/foods/food2.png" alt="" width="90%" />
@@ -143,7 +170,7 @@
               </div>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-5">
             <a href="#" class="card-food">
               <div class="img">
                 <img src="./img/foods/food3.png" alt="" width="90%" />
@@ -162,7 +189,7 @@
               </div>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-4 col-lg-3 mb-5">
             <a href="#" class="card-food">
               <div class="img">
                 <img src="./img/foods/food4.png" alt="" width="90%" />
@@ -185,11 +212,11 @@
       </section>
 
       <section class="row justify-content-center" id="section-testimony">
-        <div class="col-8 py-5">
-          <p class="testimony">
-            Awalnya saya malu dengan mertua karena tidak bisa memasak, kini
+        <div class="col-12 col-md-10 col-lg-8 py-5">
+          <p class="testimony mb-4">
+            "Awalnya saya malu dengan mertua karena tidak bisa memasak, kini
             mereka lebih suka makan malam di rumah demi menyantap masakan yang
-            saya buat sendiri
+            saya buat sendiri"
           </p>
           <div class="d-flex justify-content-center align-items-center">
             <img src="./img/user.png" width="90" alt="user" />
@@ -202,7 +229,7 @@
       </section>
 
       <section
-        class="d-flex justify-content-center align-items-center"
+        class="d-flex justify-content-center align-items-center flex-wrap"
         id="section-about"
       >
         <div class="item">
@@ -222,7 +249,136 @@
           <div class="text">ALUMNI</div>
         </div>
       </section>
+
+      <section>
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-6 d-none d-md-block">
+            <img src="./img/join-us.png" width="90%" alt="" />
+          </div>
+          <div class="col-12 col-md-6">
+            <h2 class="h2">
+              Download our app <br />
+              and join the contest
+            </h2>
+            <p class="text-muted">
+              In order to improve our cooking skills,<br />
+              we do need a food photography
+            </p>
+            <div
+              class="row mt-lg-5 justify-content-center justify-content-md-start"
+            >
+              <a href="#" class="col-4 col-lg-3">
+                <img src="./img/aivalable-appstore.png" width="100%" alt="" />
+              </a>
+              <a href="#" class="col-4 col-lg-3">
+                <img src="./img/aivalable-playstore.png" width="100%" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="border-top py-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0 align-self-center"
+            >
+              <h1 class="fw-bold h4">Foodyar</h1>
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0">
+              <h4 class="h5 mb-3 fw-bold">Special Course</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Wedding Foods</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Healthy and Muscle</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Office Food Daily</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Happy Kids</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0">
+              <h4 class="h5 mb-3 fw-bold">Company</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >APIs Developer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Career</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Terms & Conditions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-decoration-none lh-lg"
+                    style="color: var(--muted-color)"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-start mb-4 mb-md-0">
+              <h4 class="h5 mb-3 fw-bold">Be Our Friend</h4>
+              <p style="color: var(--muted-color)" class="lh-lg">
+                3, Season Park, Jakarta <br />
+                support@foodyar.co,id <br />
+                021 - 1111 - 2222
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top py-3">
+        <p class="text-center mb-0" style="color: var(--muted-color)">
+          All Rights Reserved &copy; Foodyar 2020
+        </p>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
