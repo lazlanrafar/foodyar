@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+:root {
+  --black-color: #272042;
+  --gray-color: #fbe0dc;
+  --yellow-color: #f7c531;
+  --muted-color: #8b8ba5;
+}
+
+.h2 {
+  font-size: 46px !important;
+  font-weight: bold;
+}
+
+.h3 {
+  font-size: 32px !important;
+  font-weight: bold;
+}
+
+.text-muted {
+  color: var(--muted-color) !important;
+  font-size: 20px !important;
+}
+
+.btn-custom {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn-gray {
+  background-color: var(--gray-color) !important;
+}
+
+.btn-yellow {
+  background-color: var(--yellow-color) !important;
+  padding: 7px 30px;
+}
+
+.card-food {
+  position: relative;
+  text-decoration: none;
+}
+.card-food .img {
+  position: relative;
+}
+.card-food .img img {
+  transition: all 0.3s;
+}
+.card-food .img .hover {
+  transition: all 0.3s;
+  position: absolute;
+  display: flex;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.card-food .card-title {
+  font-size: 22px;
+  color: var(--black-color);
+  font-weight: 500;
+}
+.card-food .card-chef {
+  color: var(--muted-color);
+  font-size: 16px;
+}
+.card-food .star {
+  color: var(--yellow-color);
+}
+.card-food:hover .img img {
+  filter: brightness(0.8);
+}
+.card-food:hover .img .hover {
+  opacity: 1;
+}
+
+section {
+  margin: 5rem 0 !important;
+}
+
+#section-testimony .testimony {
+  font-size: 26px;
+  color: var(--black-color);
+  text-align: center;
+}
+#section-testimony .username {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--black-color);
+}
+#section-testimony .job {
+  color: var(--muted-color);
+}
+
+#section-about {
+  text-align: center;
+}
+#section-about .item {
+  padding: 30px;
+}
+#section-about .value {
+  font-weight: bold;
+  color: var(--black-color);
+  font-size: 26px;
+}
+#section-about .text {
+  color: var(--muted-color);
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
